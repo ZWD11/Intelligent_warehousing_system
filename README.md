@@ -35,3 +35,9 @@ npm run serve
 ![alt text](3bf097407742f7e25fefc5c21e268b5.png)
 
 ![alt text](a5253d2c329712ff0bf5a2b88540de9.png)
+
+## 演示
+![image](https://github.com/ZWD11/Intelligent_warehousing_system/assets/102904846/972189a2-8ef9-402e-9d32-0f89f1c11de0)
+
+![image](https://github.com/ZWD11/Intelligent_warehousing_system/assets/102904846/d2b4d101-eb6a-470f-8972-ad00a56dc335)
+
