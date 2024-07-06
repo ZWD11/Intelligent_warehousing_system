@@ -1,0 +1,87 @@
+@font-face {
+  font-family: "element-icons"; /* Project id 4210603 */
+  src: url('iconfont.woff2?t=1692192438155') format('woff2'),
+       url('iconfont.woff?t=1692192438155') format('woff'),
+       url('iconfont.ttf?t=1692192438155') format('truetype');
+}
+
+.element-icons {
+  font-family: "element-icons" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.el-icon-a-032:before {
+  content: "\e610";
+}
+
+.el-icon-a-022:before {
+  content: "\e611";
+}
+
+.el-icon-a-052:before {
+  content: "\e612";
+}
+
+.el-icon-a-062:before {
+  content: "\e60e";
+}
+
+.el-icon-a-042:before {
+  content: "\e60f";
+}
+
+.el-icon-a-07:before {
+  content: "\e60d";
+}
+
+.el-icon-a-051:before {
+  content: "\e605";
+}
+
+.el-icon-a-031:before {
+  content: "\e606";
+}
+
+.el-icon-a-061:before {
+  content: "\e607";
+}
+
+.el-icon-a-041:before {
+  content: "\e608";
+}
+
+.el-icon-a-011:before {
+  content: "\e60b";
+}
+
+.el-icon-a-021:before {
+  content: "\e60c";
+}
+
+.el-icon-a-02:before {
+  content: "\e609";
+}
+
+.el-icon-a-03:before {
+  content: "\e60a";
+}
+
+.el-icon-a-05:before {
+  content: "\e601";
+}
+
+.el-icon-a-01:before {
+  content: "\e602";
+}
+
+.el-icon-a-04:before {
+  content: "\e603";
+}
+
+.el-icon-a-06:before {
+  content: "\e604";
+}
+

@@ -1,0 +1,78 @@
+{
+  "name": "vuex-persistedstate",
+  "description": "Persist and rehydrate your Vuex state between page reloads.",
+  "version": "4.1.0",
+  "license": "MIT",
+  "author": "Robin van der Vleuten <robin@webstronauts.co> (robinvdvleuten.nl)",
+  "keywords": [
+    "vue",
+    "vuex",
+    "plugin"
+  ],
+  "homepage": "https://github.com/robinvdvleuten/vuex-persistedstate#readme",
+  "repository": "robinvdvleuten/vuex-persistedstate",
+  "bugs": {
+    "url": "https://github.com/robinvdvleuten/vuex-persistedstate/issues"
+  },
+  "source": "src/index.ts",
+  "main": "dist/vuex-persistedstate.js",
+  "module": "dist/vuex-persistedstate.es.js",
+  "unpkg": "dist/vuex-persistedstate.umd.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "src"
+  ],
+  "scripts": {
+    "build": "rimraf dist && microbundle --external all --name createPersistedState",
+    "prepare": "npm run build",
+    "test": "npm-run-all test:**",
+    "test:jest": "jest --env=jsdom",
+    "test:size": "bundlesize"
+  },
+  "babel": {
+    "presets": [
+      "@babel/preset-env"
+    ]
+  },
+  "bundlesize": [
+    {
+      "path": "./dist/*.js",
+      "threshold": "800b"
+    }
+  ],
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run build && pretty-quick --staged"
+    }
+  },
+  "jest": {
+    "testURL": "http://localhost/"
+  },
+  "dependencies": {
+    "deepmerge": "^4.2.2",
+    "shvl": "^2.0.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "all-contributors-cli": "^6.19.0",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-jest": "^27.0.2",
+    "bundlesize": "^0.18.1",
+    "dom-storage": "^2.0.2",
+    "eslint": "^7.17.0",
+    "husky": "^7.0.0",
+    "jest": "^27.0.6",
+    "microbundle": "^0.13.0",
+    "npm-run-all": "^4.1.2",
+    "prettier": "^2.2.1",
+    "pretty-quick": "^3.1.0",
+    "rimraf": "^3.0.0",
+    "vue": "^3.0.0",
+    "vuex": "^4.0.0-rc"
+  },
+  "peerDependencies": {
+    "vuex": "^3.0 || ^4.0.0-rc"
+  }
+}

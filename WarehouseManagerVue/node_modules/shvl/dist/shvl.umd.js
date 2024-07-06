@@ -1,0 +1,2 @@
+!function(t,e){"object"==typeof exports&&"undefined"!=typeof module?e(exports):"function"==typeof define&&define.amd?define(["exports"],e):e((t=t||self).shvl={})}(this,function(t){t.get=function(t,e,n){return void 0===(t=(e.split?e.split("."):e).reduce(function(t,e){return t&&t[e]},t))?n:t},t.set=function(t,e,n,o){return!/^(__proto__|constructor|prototype)$/.test(e)&&((e=e.split?e.split("."):e.slice(0)).slice(0,-1).reduce(function(t,e){return t[e]=t[e]||{}},t)[e.pop()]=n),t}});
+//# sourceMappingURL=shvl.umd.js.map

@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="aliyun-java-sdk-dysmsapi-2.2.1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/aliyun-java-sdk-dysmsapi-2.2.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

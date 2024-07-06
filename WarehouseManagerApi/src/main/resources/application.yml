@@ -1,0 +1,20 @@
+server:
+  port: 9131
+
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/warehouse_manager?useUnicode=true&characterEncoding=utf-8&serveTimezone=UTC&useSSL=false&allowPublicKeyRetrieval=true
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: 12345678
+
+Logging:
+  level:
+    com.rabbiter: debug
+
+aliyun:
+  sms:
+    accessKeyId: LTAI5tBC2RkBfu85KhzFTYoo
+    accessKeySecret: w5AuYV421sLAquKLbzaK2B1OhE9Nvz
+    signName: 文松
+    templateCode: SMS_468245843
