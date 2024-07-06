@@ -31,7 +31,7 @@ def natural_language_to_sql(api_url, api_key, model, nl_query):
                     2. storage（仓库信息） 表 (id: 仓库 id (主键), name: 仓库名字, remark: 仓库备注);\
                     3. goodstype（商品类型） 表 (id: 商品类型 id (主键), name: 商品类型名字, remark: 商品类型备注);\
                     4. goods（商品信息） 表 (id: 物品信息 id (主键), name: 物品名字, storage: 对应 storage 表的仓库 id, goodsType: 对应商品类型表的商品类型 id, count: 商品数量, remark: 商品备注);\
-                    5. record（出入库操作记录） 表 (id: 操作记录 id (主键), goods: 对应商品信息表的商品信息 id, userId: 对应用户表的用户 id, admin_id: 对应用户表的管理员 id, count: 操作对应商品的数量(count>0: 入库, count<0: 出库), createtime: 操作时间, remark: 操作记录备注);\
+                    5. record（出入库操作记录） 表 (id: 操作记录 id (主键), goods: 对应商品信息表的商品信息 id, userId: 对应用户表中的普通用户(role_id=2)的用户 id（即该用户申请操作该商品）, admin_id: 对应用户表中非普通用户(role_id=0和role_id=1)的用户 id（即该管理员操作了该商品）, count: 操作所对应的商品的数量(count>0: 操作入库的数量, count<0: 操作出库的数量), createtime: 操作时间, remark: 操作记录备注);\
                     将以下自然语言查询转换为 SQL 查询，并仅输出那一句 SQL 语句即可，不能输出其他任何内容包括文字：{nl_query}"}],
         'max_tokens': 10000
     }
