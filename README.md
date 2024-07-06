@@ -23,7 +23,7 @@ npm run serve
 ```
 ## 后端
 
-1、vscode导入chat2db，运行文件
+1、vscode导入chat2db文件，运行代码，启动服务
 
 2、idea导入WarehouseManagerApi文件，启动项目
 
