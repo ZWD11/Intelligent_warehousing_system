@@ -94,9 +94,9 @@ def chat2db(api_url, api_key, model, nl_query):
 def handle_request():
     data = request.json
     nl_query = data.get('nl_query')
-    api_url = 'https://api.zwdblog.online/v1/chat/completions'
-    api_key = 'sk-NPqbzUdYaF0mlKKy28EfE38587Ba4e079b928e202933C94c'
-    model = 'gemini-1.5-flash-latest'
+    api_url = '/v1/chat/completions'
+    api_key = 'your_api_key'
+    model = 'slected_model'
     result = chat2db(api_url, api_key, model, nl_query)
     return jsonify(result=result)
 

@@ -54,7 +54,7 @@ export default {
             }
         },
         reverseGeocode(latitude, longitude) {
-            const apiKey = 'c5a837c07c4441eab343f3be1212f06a'; 
+            const apiKey = 'your_api_key(去https://opencagedata.com/注册获取)'; 
             const apiUrl = `https://api.opencagedata.com/geocode/v1/json?q=${latitude}+${longitude}&key=${apiKey}&language=zh-CN`;
 
             axios.get(apiUrl)

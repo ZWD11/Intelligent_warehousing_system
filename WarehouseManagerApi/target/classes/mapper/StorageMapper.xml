@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.rabbiter.mapper.StorageMapper">
+<mapper namespace="com.wensong.mapper.StorageMapper">
 
     <!-- 通用查询映射结果 -->
-    <resultMap id="BaseResultMap" type="com.rabbiter.entity.Storage">
+    <resultMap id="BaseResultMap" type="com.wensong.entity.Storage">
         <id column="id" property="id" />
         <result column="name" property="name" />
         <result column="remark" property="remark" />
@@ -14,7 +14,7 @@
         id, name, remark
     </sql>
 
-    <select id="pageCC" resultType="com.rabbiter.entity.Storage">
+    <select id="pageCC" resultType="com.wensong.entity.Storage">
         select * from storage ${ew.customSqlSegment}
     </select>
 </mapper>

@@ -18,5 +18,20 @@ npm run serve
 
 数据库：mysql
 
-
+``` 
 # Intelligent_warehousing_system
+
+## 进行完整运行前先配置一下
+
+### application.yml下：
+![alt text](c0789727738a3bde91ab2875c74c6e4.png)
+
+![alt text](9371cd29f562d97edb8eb9b57602d71.png)
+
+### CurrentLocation.vue下：
+![alt text](0ab143e2a44af92617d23d8d037385b.png)
+
+### chatdb.py下：
+![alt text](3bf097407742f7e25fefc5c21e268b5.png)
+
+![alt text](a5253d2c329712ff0bf5a2b88540de9.png)

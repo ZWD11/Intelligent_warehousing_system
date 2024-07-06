@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.rabbiter.mapper.GoodsMapper">
+<mapper namespace="com.wensong.mapper.GoodsMapper">
 
-    <select id="pageCC" resultType="com.rabbiter.entity.Goods">
+    <select id="pageCC" resultType="com.wensong.entity.Goods">
         select * from goods ${ew.customSqlSegment}
     </select>
 
     <!-- 通用查询映射结果 -->
-    <resultMap id="BaseResultMap" type="com.rabbiter.entity.Goods">
+    <resultMap id="BaseResultMap" type="com.wensong.entity.Goods">
         <id column="id" property="id" />
         <result column="name" property="name" />
         <result column="storage" property="storage" />

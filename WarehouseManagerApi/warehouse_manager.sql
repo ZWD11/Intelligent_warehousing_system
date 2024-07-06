@@ -11,7 +11,7 @@
  Target Server Version : 80019
  File Encoding         : 65001
 
- Date: 16/08/2023 00:46:47
+ Date: 16/06/2024 00:46:47
 */
 
 SET NAMES utf8;
@@ -90,6 +90,7 @@ INSERT INTO `menu` VALUES (3, '003', '仓库信息管理', '1', NULL, 'Storage',
 INSERT INTO `menu` VALUES (4, '004', '物品分类管理', '1', NULL, 'Goodstype', '0,1', 'goodstype/GoodstypeManage', 'el-icon-a-041');
 INSERT INTO `menu` VALUES (5, '005', '物品信息管理 ', '1', NULL, 'Goods', '0,1,2', 'goods/GoodsManage', 'el-icon-a-02');
 INSERT INTO `menu` VALUES (6, '006', '操作日志', '1', NULL, 'Record', '0,1,2', 'record/RecordManage', 'el-icon-a-061');
+INSERT INTO `menu` VALUES (7, '007', '智能助手', '1', NULL, 'Assistant', '0', 'assistant/Assistant', 'el-icon-service');
 
 -- ----------------------------
 -- Table structure for record
@@ -109,13 +110,13 @@ CREATE TABLE `record`  (
 -- ----------------------------
 -- Records of record
 -- ----------------------------
-INSERT INTO `record` VALUES (1, 1, 3, 2, 100, '2023-01-06 20:46:48', '取货');
-INSERT INTO `record` VALUES (12, 1, 3, 1, -5, '2023-01-19 15:32:27', '');
-INSERT INTO `record` VALUES (15, 4, 3, 1, 100, '2023-06-11 21:08:13', '');
-INSERT INTO `record` VALUES (16, 4, 3, 1, -50, '2023-06-11 21:08:25', '');
-INSERT INTO `record` VALUES (17, 4, 3, 1, 100, '2023-06-11 21:17:24', '');
-INSERT INTO `record` VALUES (18, 4, 3, 1, -200, '2023-06-11 21:17:33', '');
-INSERT INTO `record` VALUES (19, 4, 3, 1, 100, '2023-08-06 11:15:11', '');
+INSERT INTO `record` VALUES (1, 1, 3, 2, 100, '2024-05-25 20:46:48', '取货');
+INSERT INTO `record` VALUES (12, 1, 3, 1, -5, '2024-05-29 15:32:27', '');
+INSERT INTO `record` VALUES (15, 4, 3, 1, 100, '2024-06-11 21:08:13', '');
+INSERT INTO `record` VALUES (16, 4, 3, 1, -50, '2024-06-12 21:08:25', '');
+INSERT INTO `record` VALUES (17, 4, 3, 1, 100, '2024-06-11 21:17:24', '');
+INSERT INTO `record` VALUES (18, 4, 3, 1, -200, '2024-06-11 21:17:33', '');
+INSERT INTO `record` VALUES (19, 4, 3, 1, 100, '2024-06-12 11:15:11', '');
 
 -- ----------------------------
 -- Table structure for storage
@@ -161,6 +162,6 @@ CREATE TABLE `user`  (
 -- ----------------------------
 INSERT INTO `user` VALUES (1, 'superadmin', '张三', '123456', 18, 1, '18855079621', 0, 'Y');
 INSERT INTO `user` VALUES (2, 'admin', '李四', '123456', 19, 0, '18855079621', 1, 'Y');
-INSERT INTO `user` VALUES (3, 'user', '王五', '123456', 23, 0, '13333333333', 2, 'Y');
+INSERT INTO `user` VALUES (3, 'user', '王五', '123456', 23, 0, '13124633468', 2, 'Y');
 
 SET FOREIGN_KEY_CHECKS = 1;
