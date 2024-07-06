@@ -1,16 +1,6 @@
-# 启动项目
-``` bash
-# 切换镜像
-npm config set registry https://registry.npmmirror.com/
+# Itelligent_warehousing_system项目概述
 
-# 安装依赖
-npm install
-
-# 启动项目服务
-npm run serve
-
-# 项目概述
-项目是基于SpringBoot+Vue+Python前后端分离的智能仓储系统
+项目是基于SpringBoot + Vue + Python前后端分离的智能仓储系统
 
 后端：SpringBoot + MybatisPlus + Python
 
@@ -18,10 +8,25 @@ npm run serve
 
 数据库：mysql
 
-``` 
-# Intelligent_warehousing_system
+# 启动项目
 
-## 进行完整运行前先配置一下
+## 前端（vscode）
+``` bash
+# 切换镜像(在此不用）
+npm config set registry https://registry.npmmirror.com/
+
+# 如需安装依赖
+npm install
+
+# 启动项目服务
+npm run serve
+```
+## 后端
+
+1、vscode导入chat2db，运行文件
+2、idea导入WarehouseManagerApi文件，启动项目
+
+# 进行完整运行前先配置一下
 
 ### application.yml下：
 ![alt text](c0789727738a3bde91ab2875c74c6e4.png)
@@ -36,7 +41,7 @@ npm run serve
 
 ![alt text](a5253d2c329712ff0bf5a2b88540de9.png)
 
-## 演示
+## 部分演示
 ![image](https://github.com/ZWD11/Intelligent_warehousing_system/assets/102904846/972189a2-8ef9-402e-9d32-0f89f1c11de0)
 
 ![image](https://github.com/ZWD11/Intelligent_warehousing_system/assets/102904846/d2b4d101-eb6a-470f-8972-ad00a56dc335)
