@@ -14,7 +14,7 @@ Logging:
 
 aliyun:
   sms:
-    accessKeyId: LTAI5tBC2RkBfu85KhzFTYoo
-    accessKeySecret: w5AuYV421sLAquKLbzaK2B1OhE9Nvz
-    signName: 文松
-    templateCode: SMS_468245843
+    accessKeyId: accessKeyId
+    accessKeySecret: accessKeySecret
+    signName: signName
+    templateCode: templateCode
