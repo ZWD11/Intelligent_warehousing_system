@@ -8,7 +8,7 @@
 		<version>2.7.5</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.rabbiter</groupId>
+	<groupId>com.wensong</groupId>
 	<artifactId>WarehouseManagerApi</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>WarehouseManagerApi</name>
