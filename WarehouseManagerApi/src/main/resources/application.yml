@@ -14,7 +14,7 @@ Logging:
 
 aliyun:
   sms:
-    accessKeyId: aliyun_accessKeyId
-    accessKeySecret: aliyun_accessKeySecret
+    accessKeyId: accessKeyId
+    accessKeySecret: accessKeySecret
     signName: 短信发送的signName
     templateCode: 短信发送的templateCode
