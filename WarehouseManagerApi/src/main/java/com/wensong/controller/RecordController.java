@@ -35,9 +35,6 @@ public class RecordController {
     @Autowired
     private GoodsService goodsService;
     
-    /*
-     * @author rabbiter
-     */
     @PostMapping("/listPage")
     public Result listPage(@RequestBody QueryPageParam query){
         HashMap param = query.getParam();
