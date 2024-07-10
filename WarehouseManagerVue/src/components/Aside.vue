@@ -11,7 +11,7 @@
             router
     >
        <el-menu-item >
-           <span slot="title" style="font-size: 22px;"><b>仓库管理系统</b></span>
+           <span slot="title" style="font-size: 22px;"><b>智能仓储系统</b></span>
        </el-menu-item>
        <el-menu-item index="/Home" style="font-size: 16px;">
            <i class="el-icon-a-011" style="color: white;font-size: 22px;"></i>
